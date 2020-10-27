@@ -1,0 +1,96 @@
+@import '../../scss/ui';
+
+.film-submissions {
+    @include mobile {
+        .film-submissions-sort {
+            display: none;
+        }
+    }
+
+}
+.film-submissions-title {
+    height: 25px;
+    width: 162px;
+    color: #242835;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin: 0;
+}
+.film-submissions-row {
+    display: flex;
+    justify-content: space-between;
+}
+.film-submissions-filters{
+    display: flex;
+    margin-top: 20px;
+}
+.film-submissions-filters select {
+    box-sizing: border-box;
+    height: 36px;
+    width: 135px;
+    border: 1px solid #DADBE0;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    color: #454D66;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.film-submissions-filters option {
+    color: #454D66;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.film-submissions-filters button {
+    height: 36px;
+    width: 135px;
+    border-radius: 4px;
+    background-color: #FF6C61;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.film-submissions-sort {
+    width: 304px;
+    height: 36px;
+    margin-top: 20px;
+}
+.film-submissions-sort select {
+    margin-left: 10px;
+    box-sizing: border-box;
+    height: 36px;
+    width: 242px;
+    border: 1px solid #DADBE0;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    color: #454D66;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.film-submissions-sort label {
+    height: 24px;
+    width: 52px;
+    color: #9BA4B0;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+}

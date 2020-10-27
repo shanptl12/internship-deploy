@@ -1,0 +1,47 @@
+@import './ui';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.clickable {
+  cursor: pointer;
+}
+
+.icon-close {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  &:after, &:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 1px;
+    background-color: white;
+  }
+  &:after {
+    transform: rotate(-45deg);
+  }
+  &:before {
+    transform: rotate(45deg);
+  }
+}

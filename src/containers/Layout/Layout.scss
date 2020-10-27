@@ -1,0 +1,76 @@
+@import '../../scss/ui';
+
+.layout-container {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.layout-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $navbar-height;
+  z-index: 20;
+}
+
+.layout-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: $sidebar-width;
+  z-index: 21;
+  transition: transform ease 0.5s;
+}
+.sidebar-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 21;
+}
+
+.layout-content {
+  margin-top: $navbar-height;
+}
+
+// Modifiers
+.layout-container {
+  &:not(.no-padding) {
+    .layout-content {
+      padding: 20px;
+    }
+  }
+  &:not(.no-sidebar) {
+    @include above-mobile {
+      .layout-content {
+        margin-left: $sidebar-width;
+      }
+    }
+  }
+}
+
+// Responsive
+.layout-container {
+  @include mobile {
+    .layout-sidebar {
+      transform: translate3d(-1* $sidebar-width, 0, 0);
+    }
+    .layout-content {
+      margin-left: 0;
+      padding: 20px 0;
+    }
+  }
+  &.is-sidebar-open {
+    @include mobile {
+      .layout-sidebar {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/internship-deploy/static/css/main.f216843e.chunk.css",
+    "main.js": "/internship-deploy/static/js/main.f5a4fdf7.chunk.js",
+    "main.js.map": "/internship-deploy/static/js/main.f5a4fdf7.chunk.js.map",
+    "runtime-main.js": "/internship-deploy/static/js/runtime-main.e5b1624b.js",
+    "runtime-main.js.map": "/internship-deploy/static/js/runtime-main.e5b1624b.js.map",
+    "static/js/2.dea7cd4f.chunk.js": "/internship-deploy/static/js/2.dea7cd4f.chunk.js",
+    "static/js/2.dea7cd4f.chunk.js.map": "/internship-deploy/static/js/2.dea7cd4f.chunk.js.map",
+    "index.html": "/internship-deploy/index.html",
+    "precache-manifest.fd7e0e7c5e5640a63caae0c92d2bf50a.js": "/internship-deploy/precache-manifest.fd7e0e7c5e5640a63caae0c92d2bf50a.js",
+    "service-worker.js": "/internship-deploy/service-worker.js",
+    "static/css/main.f216843e.chunk.css.map": "/internship-deploy/static/css/main.f216843e.chunk.css.map",
+    "static/js/2.dea7cd4f.chunk.js.LICENSE.txt": "/internship-deploy/static/js/2.dea7cd4f.chunk.js.LICENSE.txt",
+    "static/media/Filmtwine-logo-black.svg": "/internship-deploy/static/media/Filmtwine-logo-black.4d283b12.svg",
+    "static/media/Filmtwine-logo.svg": "/internship-deploy/static/media/Filmtwine-logo.b8e1cdd2.svg",
+    "static/media/Search-Icon.svg": "/internship-deploy/static/media/Search-Icon.9be89ceb.svg",
+    "static/media/Target.svg": "/internship-deploy/static/media/Target.02f3b229.svg",
+    "static/media/bell-icon.svg": "/internship-deploy/static/media/bell-icon.f3b40d25.svg",
+    "static/media/briefcase.svg": "/internship-deploy/static/media/briefcase.1ee8eaea.svg",
+    "static/media/content-paper-edit.svg": "/internship-deploy/static/media/content-paper-edit.b7659684.svg",
+    "static/media/conversation-chat-1.svg": "/internship-deploy/static/media/conversation-chat-1.20a583b3.svg",
+    "static/media/dashboard.svg": "/internship-deploy/static/media/dashboard.1eaf1613.svg",
+    "static/media/filmmakers.svg": "/internship-deploy/static/media/filmmakers.675cda39.svg",
+    "static/media/films.svg": "/internship-deploy/static/media/films.2bb492f0.svg",
+    "static/media/hamburger.svg": "/internship-deploy/static/media/hamburger.56c5d7c3.svg",
+    "static/media/no-img.png": "/internship-deploy/static/media/no-img.b6681619.png",
+    "static/media/pricing.svg": "/internship-deploy/static/media/pricing.162c0c52.svg",
+    "static/media/question-circle.svg": "/internship-deploy/static/media/question-circle.7b8fcb14.svg",
+    "static/media/settings.svg": "/internship-deploy/static/media/settings.9308c700.svg",
+    "static/media/team.svg": "/internship-deploy/static/media/team.ecf26126.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5b1624b.js",
+    "static/js/2.dea7cd4f.chunk.js",
+    "static/css/main.f216843e.chunk.css",
+    "static/js/main.f5a4fdf7.chunk.js"
+  ]
+}

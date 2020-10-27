@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route, BrowserRouter as Router} from 'react-router-dom'
+import {Switch, Route, HashRouter as Router} from 'react-router-dom'
 import Home from './pages/home/home'
 import FilmDetails from './pages/FilmDetails/FilmDetails'
 

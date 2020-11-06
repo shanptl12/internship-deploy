@@ -1,8 +1,7 @@
-@import '../../scss/ui';
+@import "../../scss/ui";
 
 .layout-container {
   position: relative;
-  width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -31,7 +30,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 21;
 }
 
@@ -59,7 +58,7 @@
 .layout-container {
   @include mobile {
     .layout-sidebar {
-      transform: translate3d(-1* $sidebar-width, 0, 0);
+      transform: translate3d(-1 * $sidebar-width, 0, 0);
     }
     .layout-content {
       margin-left: 0;

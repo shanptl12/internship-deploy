@@ -1,39 +1,41 @@
 .info {
-    width: 340px;
-    height: 310px;
-    margin-top: 20px;
-    margin-left: 5px;
+  width: 100%;
+}
+.info-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .location {
-    width: 340px;
-    height: 180px;
-    position: relative;
+  width: 100%;
+  height: 180px;
+  position: relative;
 }
 .info-text {
-    display: grid;
-    grid-template-columns: repeat(2, 185px);
-    width: 340px;
-    height: 130px;
-    border-radius: 0 0 4px 4px;
-    background-color: #FFFFFF;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
+  display: grid;
+  grid-template-columns: repeat(2, 185px);
+  width: 100%;
+  height: 130px;
+  border-radius: 0 0 4px 4px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
 }
 .info-text p {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .info-title {
-    color: #9BA4B0;
-    font-family: Lato;
-    font-size: 13px;
-    font-weight: 900;
-    letter-spacing: 0;
-    line-height: 20px;
-    margin: 0;
-    margin-top: 13px;
+  color: #9ba4b0;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin: 0;
+  margin-top: 13px;
 }
 .info-detail {
-    color: #454D66;
+  color: #454d66;
   font-family: Lato;
   font-size: 15px;
   letter-spacing: 0;
@@ -41,29 +43,37 @@
   margin: 0;
 }
 .bio {
-    height: 210px;
-    width: 340px;
-    border-radius: 4px 4px 0 0;
-    background-color: #FFFFFF;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.05);
-    margin-top: 5px;
+  height: 210px;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+  margin-top: 5px;
 }
 .bio-title {
-    color: #9BA4B0;
-    font-family: Lato;
-    font-size: 13px;
-    font-weight: 900;
-    letter-spacing: 0;
-    line-height: 20px;
-    padding-top: 20px;
-    margin-left: 20px;
+  color: #9ba4b0;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding-top: 20px;
+  margin-left: 20px;
 }
 .bio-body {
-    color: #454D66;
-    font-family: Lato;
-    font-size: 15px;
-    letter-spacing: 0;
-    line-height: 20px;
-    margin-left: 20px;
-    width: 304px;
+  color: #454d66;
+  font-family: Lato;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 20px;
+  width: 304px;
+}
+@media (max-width: 400px) {
+  .info-text {
+    width: 96%;
+  }
+  .bio {
+    width: 96%;
+  }
 }

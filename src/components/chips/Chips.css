@@ -1,40 +1,41 @@
 .chips {
-    height: 24px;
-    width: 90px;
-    border-radius: 14px;
-    text-align: -webkit-center;
+  height: 24px;
+  width: 90px;
+  border-radius: 14px;
+  text-align: -webkit-center;
+  margin: 0 5px;
 }
 .chips p {
-    display: contents;
-    position: relative;
-    height: 15px;
-    width: 34px;
-    color: #FFFFFF;
-    font-family: Lato;
-    font-size: 10px;
-    letter-spacing: 0;
-    line-height: 15px;
-    text-align: center;
+  display: contents;
+  position: relative;
+  height: 15px;
+  width: 34px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-align: center;
 }
 
 .darkturquoise {
-    background-color: darkturquoise;
+  background-color: darkturquoise;
 }
 .cornflowerblue {
-    background-color: cornflowerblue;
+  background-color: cornflowerblue;
 }
-.mediumpurple{
-    background-color: mediumpurple;
+.mediumpurple {
+  background-color: mediumpurple;
 }
 .mediumorchid {
-    background-color: mediumorchid;
+  background-color: mediumorchid;
 }
 .sandybrown {
-    background-color: sandybrown;
+  background-color: sandybrown;
 }
-.lightcoral{
-    background-color: lightcoral;
+.lightcoral {
+  background-color: lightcoral;
 }
 .mediumseagreen {
-    background-color: mediumseagreen;
+  background-color: mediumseagreen;
 }

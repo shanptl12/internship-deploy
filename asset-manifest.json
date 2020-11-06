@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/internship-deploy/static/css/main.f216843e.chunk.css",
-    "main.js": "/internship-deploy/static/js/main.47c18f3e.chunk.js",
-    "main.js.map": "/internship-deploy/static/js/main.47c18f3e.chunk.js.map",
+    "main.css": "/internship-deploy/static/css/main.0e139b79.chunk.css",
+    "main.js": "/internship-deploy/static/js/main.f3c22954.chunk.js",
+    "main.js.map": "/internship-deploy/static/js/main.f3c22954.chunk.js.map",
     "runtime-main.js": "/internship-deploy/static/js/runtime-main.e5b1624b.js",
     "runtime-main.js.map": "/internship-deploy/static/js/runtime-main.e5b1624b.js.map",
-    "static/js/2.2313b6d3.chunk.js": "/internship-deploy/static/js/2.2313b6d3.chunk.js",
-    "static/js/2.2313b6d3.chunk.js.map": "/internship-deploy/static/js/2.2313b6d3.chunk.js.map",
+    "static/js/2.ee947b20.chunk.js": "/internship-deploy/static/js/2.ee947b20.chunk.js",
+    "static/js/2.ee947b20.chunk.js.map": "/internship-deploy/static/js/2.ee947b20.chunk.js.map",
     "index.html": "/internship-deploy/index.html",
-    "precache-manifest.d180beee38be9e862bc96875f2efcaa2.js": "/internship-deploy/precache-manifest.d180beee38be9e862bc96875f2efcaa2.js",
+    "precache-manifest.bdf310d75f5e73061560caa2ce0dc7e2.js": "/internship-deploy/precache-manifest.bdf310d75f5e73061560caa2ce0dc7e2.js",
     "service-worker.js": "/internship-deploy/service-worker.js",
-    "static/css/main.f216843e.chunk.css.map": "/internship-deploy/static/css/main.f216843e.chunk.css.map",
-    "static/js/2.2313b6d3.chunk.js.LICENSE.txt": "/internship-deploy/static/js/2.2313b6d3.chunk.js.LICENSE.txt",
+    "static/css/main.0e139b79.chunk.css.map": "/internship-deploy/static/css/main.0e139b79.chunk.css.map",
+    "static/js/2.ee947b20.chunk.js.LICENSE.txt": "/internship-deploy/static/js/2.ee947b20.chunk.js.LICENSE.txt",
     "static/media/Filmtwine-logo-black.svg": "/internship-deploy/static/media/Filmtwine-logo-black.4d283b12.svg",
     "static/media/Filmtwine-logo.svg": "/internship-deploy/static/media/Filmtwine-logo.b8e1cdd2.svg",
     "static/media/Search-Icon.svg": "/internship-deploy/static/media/Search-Icon.9be89ceb.svg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e5b1624b.js",
-    "static/js/2.2313b6d3.chunk.js",
-    "static/css/main.f216843e.chunk.css",
-    "static/js/main.47c18f3e.chunk.js"
+    "static/js/2.ee947b20.chunk.js",
+    "static/css/main.0e139b79.chunk.css",
+    "static/js/main.f3c22954.chunk.js"
   ]
 }
